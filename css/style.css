@@ -1,0 +1,109 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	position: relative;
+	background-color: black;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+header {
+	font-weight: bolder;
+	font-size: 15px;
+	height: 60px;
+	width: 100%;
+	background-color: rgb(4, 182, 4);
+	color: White;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	background-image: url('/images/IMPRESSAO\ 3D\ SKULL.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.capture {
+	font-size: 10px;
+	width: 300px;
+	height: auto;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	margin: 15px;
+	border-radius: 10px;
+	border: 2px solid whitesmoke;
+	float: right;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+select {
+	/* removing standard style from all browsers */
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	background-image: url(/images/arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: calc(100% - 10px) center;
+}
+
+input[type='submit'] {
+	color: white;
+	background-color: green;
+	font-weight: bold;
+}
+
+.bold-text {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.light-text {
+	font-size: 15px;
+}
+
+footer {
+	background-color: rgb(47, 53, 47);
+	margin: auto;
+}
+
+.white {
+	color: whitesmoke;
+}
+
+.palestrante-info {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	padding: 50px 0px;
+	display: flex;
+}
+
+.foto-palestrante {
+	height: 200px;
+	float: left;
+	margin: 0px 30px;
+}
